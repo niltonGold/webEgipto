@@ -1,0 +1,189 @@
+.Inicio{
+    color: rgb(104, 6, 6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px; */
+}
+
+.inicio-imagen{
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    /* width: 200px;
+    height: 200px; */
+}
+
+
+.inicio-img-1{
+    background-image: url('../../../assets/images/imagen1.jpg');
+}
+
+.inicio-img-2{
+    background-image: url('../../../assets/images/imagen2.jpg');
+}
+
+.inicio-img-3{
+    background-image: url('../../../assets/images/imagen3.jpg');
+}
+
+.inicio-img-4{
+    background-image: url('../../../assets/images/imagen4.jpg');
+}
+
+
+
+
+
+@media (max-width: 480px) {
+
+    .Inicio{
+        gap: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .inicio-imagen{
+        width: 200px;
+        height: 200px;
+    }
+    
+    
+    .inicio-img-1{
+    }
+    
+    .inicio-img-2{
+    }
+    
+    .inicio-img-3{
+    }
+    
+    .inicio-img-4{
+    }
+  
+}
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+    .Inicio{
+        gap: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .inicio-imagen{
+        width: 250px;
+        height: 250px;
+    }
+    
+    
+    .inicio-img-1{
+    }
+    
+    .inicio-img-2{
+    }
+    
+    .inicio-img-3{
+    }
+    
+    .inicio-img-4{
+    }
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+    .Inicio{
+        gap: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .inicio-imagen{
+        width: 350px;
+        height: 350px;
+    }
+    
+    
+    .inicio-img-1{
+    }
+    
+    .inicio-img-2{
+    }
+    
+    .inicio-img-3{
+    }
+    
+    .inicio-img-4{
+    }
+
+}
+
+
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+
+    .Inicio{
+        gap: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .inicio-imagen{
+        width: 450px;
+        height: 450px;
+    }
+    
+    
+    .inicio-img-1{
+    }
+    
+    .inicio-img-2{
+    }
+    
+    .inicio-img-3{
+    }
+    
+    .inicio-img-4{
+    }
+
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+
+    .Inicio{
+        gap: 60px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .inicio-imagen{
+        width: 550px;
+        height: 550px;
+    }
+    
+    
+    .inicio-img-1{
+    }
+    
+    .inicio-img-2{
+    }
+    
+    .inicio-img-3{
+    }
+    
+    .inicio-img-4{
+    }
+
+}
