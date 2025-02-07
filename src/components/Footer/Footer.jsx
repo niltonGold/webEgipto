@@ -21,23 +21,23 @@ export const Footer = () => {
   return (
     <>
       <div className='Footer-container'>
+            <div className='footer-subcontainer'>
+                <a className='footer-enlace' onClick={handleDocumentClickAvisoLegal} >
+                  AVISO LEGAL
+                </a>
 
-            <a className='footer-enlace' onClick={handleDocumentClickAvisoLegal} >
-              AVISO LEGAL
-            </a>
+                <div> | </div>
 
-            <div> | </div>
+                <a className='footer-enlace' onClick={handleDocumentClickPoliticaDeCookies} >
+                  POLÍTICAS DE COOKIES
+                </a>
 
-            <a className='footer-enlace' onClick={handleDocumentClickPoliticaDeCookies} >
-              POLÍTICAS DE COOKIES
-            </a>
+                <div> | </div>
 
-            <div> | </div>
-
-            <a className='footer-enlace' onClick={handleDocumentClickPoliticaDeCalidad} >
-              POLÍTICAS DE CALIDAD
-            </a>
-
+                <a className='footer-enlace' onClick={handleDocumentClickPoliticaDeCalidad} >
+                  POLÍTICAS DE CALIDAD
+                </a>
+            </div>
       </div>
     </>
   )
